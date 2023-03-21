@@ -5,7 +5,7 @@ int main()
 	long int n;
 	int k1, k2;
 	setlocale(LC_ALL, "Rus");
-	cout << "Ââåäèòå n ";
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ n ";
 	cin >> n;
 	k1 = 0;
 	k2 = 0;
@@ -23,7 +23,7 @@ int main()
 		}
 		n /= 10;
 	}
-	cout << "×¸òíûõ ÷èñåë " << k1 << endl;
-	cout << "Íå÷¸òíûõ ÷èñåë " << k2 << endl;
+	cout << "Ã—Â¸Ã²Ã­Ã»Ãµ Ã·Ã¨Ã±Ã¥Ã« " << k1 << endl;
+	cout << "ÃÃ¥Ã·Â¸Ã²Ã­Ã»Ãµ Ã·Ã¨Ã±Ã¥Ã« " << k2 << endl;
 	return 0;
 }
